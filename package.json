@@ -1,5 +1,16 @@
 {
+  "name": "the-amazing-log-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "inquirer": "^9.2.10"
-  }
+    "inquirer": "^8.2.6",
+    "svg-builder": "^2.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
