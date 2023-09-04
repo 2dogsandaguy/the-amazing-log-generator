@@ -1,7 +1,7 @@
 // Import the necessary modules
 const fs = require('fs'); // File system module for reading/writing files
 const inquirer = require('inquirer'); // Module for handling user prompts
-
+const readline = require('readline'); // Add this line to import the readline module
 // Define shape data
 const shapes = {
   circle: { type: 'circle', points: '', dimensions: 'cx="150" cy="100" r="80"' },
@@ -38,7 +38,6 @@ const generateHTML = (userInput) => {
     <body>
       <h1>Generated SVG:</h1>
       ${shapeSVG}
-      <!-- Your HTML content here -->
     </body>
     </html>
   `;
@@ -55,7 +54,16 @@ const promptUser = async () => {
     {
       name: 'text',
       message: 'Enter up to three characters:',
-      validate: (input) => (input.length <= 3 ? true : 'Please enter up to three characters.'),
+      validate: (input) => {
+        if (input.length <= 0) {
+          return 'Please enter at least one character';
+          }else if (input.length > 3) {
+            return 'Please enter no more than three characters';
+            }else {
+              return true;
+        };
+      },
+      filter: (input) => input.trim(),
     },
     {
       name: 'textColor',
@@ -66,6 +74,7 @@ const promptUser = async () => {
       name: 'shape',
       message: 'Choose a shape:',
       choices: Object.keys(shapes), // Use shape keys from the 'shapes' object
+      
     },
     {
       name: 'shapeColor',
@@ -75,6 +84,9 @@ const promptUser = async () => {
 
   return userInput; // Return the user's input as an object
 };
+// this is to exit the user prompt at anytime when click escape key
+promptUser.on('escape', () => process.exit(0));   
+
 
 // Main execution block
 (async () => {
