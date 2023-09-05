@@ -1,8 +1,13 @@
-// Import the necessary modules
+const { promptUser } = require('./userInput');
+const { generateHTML } = require('./svgGenerator');
+
+
+
+/* // Import the necessary modules
 const fs = require('fs'); // File system module for reading/writing files
-const inquirer = require('inquirer'); // Module for handling user prompts
-const readline = require('readline'); // Add this line to import the readline module
-// Define shape data
+const inquirer = require('inquirer'); // Module for handling user prompts */
+
+/* // Define shape data
 const shapes = {
   circle: { type: 'circle', points: '', dimensions: 'cx="150" cy="100" r="80"' },
   triangle: { type: 'polygon', points: 'points="150,20 220,180 80,180"', dimensions: '' },
@@ -19,14 +24,14 @@ const generateSVG = (userInput) => {
       <text x="150" y="125" font-size="60" text-anchor="middle" fill="${userInput.textColor}">${userInput.text}</text>
     </svg>
   `;
-};
+}; */
 
-// Function to generate the HTML file with the embedded SVG
+/* // Function to generate the HTML file with the embedded SVG
 const generateHTML = (userInput) => {
   // Generate the SVG content using the 'generateSVG' function
   const shapeSVG = generateSVG(userInput);
 
-  // Create the HTML content with the embedded SVG
+  // Create the HTML content with a logo
   const htmlContent = `
     <!DOCTYPE html>
     <html lang="en">
@@ -36,7 +41,7 @@ const generateHTML = (userInput) => {
       <title>Generated SVG</title>
     </head>
     <body>
-      <h1>Generated SVG:</h1>
+      <h1>Generated SVG</h1>
       ${shapeSVG}
     </body>
     </html>
@@ -45,9 +50,9 @@ const generateHTML = (userInput) => {
   // Write the HTML content to a file named 'index.html'
   fs.writeFileSync('index.html', htmlContent);
   console.log('Generated index.html'); // Display a message indicating that the HTML file has been generated
-};
+}; */
 
-// Function to prompt the user for input
+/* // Function to prompt the user for input
 const promptUser = async () => {
   // Use the 'inquirer' module to prompt the user for input and store the responses in 'userInput'
   const userInput = await inquirer.prompt([
@@ -83,10 +88,7 @@ const promptUser = async () => {
   ]);
 
   return userInput; // Return the user's input as an object
-};
-// this is to exit the user prompt at anytime when click escape key
-promptUser.on('escape', () => process.exit(0));   
-
+}; */
 
 // Main execution block
 (async () => {
