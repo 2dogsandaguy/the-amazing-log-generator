@@ -88,21 +88,20 @@ After providing input and running the tests, the program will generate an HTML f
 
 ## Screenshots
 
-1. ![Screenshot 1](screenshots/screenshot1.png)
-   Description of the screenshot.
+1. ![Screenshot 1](./images/Screenshot%202023-09-06%20224327.png)
+   The sample of what would be created from prompt.
 
-2. ![Screenshot 2](screenshots/screenshot2.png)
-   Description of the screenshot.
+2. ![Screenshot 2](./images/Screenshot%202023-09-06%20224351.png)
+   What was put in prompt to create logo.
 
-3. ![Screenshot 3](screenshots/screenshot3.png)
-   Description of the screenshot.
+
 
 
 
 ## Links
 
 - [Live Demo](https://your-project-demo.com)
-- [GitHub Repository](https://github.com/your-username/your-project)
+- [GitHub Repository](https://github.com/2dogsandaguy/the-amazing-log-generator)
 
 
 ## Questions

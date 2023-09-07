@@ -1,5 +1,5 @@
 const { promptUser } = require('./lib/userInput');
-const { generateHTML } = require('./lib/svgGenerator');
+const { generateSVGFile } = require('./lib/shapes');
 
 
 describe('Main Functionality', () => {
@@ -9,8 +9,7 @@ describe('Main Functionality', () => {
   });
 
 
-  test('generateHTML function should be defined', () => {
-    expect(generateHTML).toBeDefined();
+  test('generateSVG function should be defined', () => {
+    expect(generateSVGFile).toBeDefined();
   });
-  
 });
