@@ -1,5 +1,5 @@
-const { promptUser } = require('./lib/userInput');
-const { generateSVGFile } = require('./lib/shapes');
+const { promptUser } = require('../lib/userInput');
+const { generateSVGFile } = require('../lib/shapes');
 
 
 describe('Main Functionality', () => {

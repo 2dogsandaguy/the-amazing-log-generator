@@ -1,6 +1,6 @@
-const { promptUser } = require('./userInput');
+const { promptUser } = require('../lib/userInput');
 const inquirer = require('inquirer');
-const { generateSVGFile } = require('./shapes');
+const { generateSVGFile } = require('../lib/shapes');
 jest.mock('inquirer');
 
 test('promptUser handles valid shape color input', async () => {
