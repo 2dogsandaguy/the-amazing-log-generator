@@ -1,4 +1,4 @@
-// Import the necessary modules 
+/* // Import the necessary modules 
 const { promptUser } = require('./lib/userInput');
 const { generateHTML } = require('./lib/svgGenerator');
 
@@ -10,3 +10,4 @@ const { generateHTML } = require('./lib/svgGenerator');
   // Generate the HTML file with the embedded SVG using the user's input
   generateHTML(userInput);
 })();
+ */
