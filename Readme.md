@@ -97,12 +97,9 @@ After providing input and running the tests, the program will generate an HTML f
    
 
 
-
-
-
 ## Links
 
-- [Live Demo](https://your-project-demo.com)
+- [Live Demo](https://youtu.be/3goHCtDbgMQ)
 - [GitHub Repository](https://github.com/2dogsandaguy/the-amazing-log-generator)
 
 
