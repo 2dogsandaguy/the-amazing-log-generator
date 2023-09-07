@@ -88,11 +88,13 @@ After providing input and running the tests, the program will generate an HTML f
 
 ## Screenshots
 
-1. ![Screenshot 1](./images/Screenshot%202023-09-06%20224327.png)
-   The sample of what would be created from prompt.
+1. The sample of what would be created from prompt.
+![Screenshot 1](./images/Screenshot%202023-09-06%20224327.png)
+   
 
-2. ![Screenshot 2](./images/Screenshot%202023-09-06%20224351.png)
-   What was put in prompt to create logo.
+2. What was put in prompt to create logo.
+![Screenshot 2](./images/Screenshot%202023-09-06%20224351.png)
+   
 
 
 
