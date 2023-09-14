@@ -46,7 +46,9 @@ w3schools https://www.w3schools.com/
 the world wide web
 
 ## Tests
-Before running the tests, make sure you have completed the installation steps mentioned in the Usage section.
+THERE IS A LIVE TEST DEMO IN THE LINKS SECTION 
+* [Links](#links)
+* Before running the tests, make sure you have completed the installation steps mentioned in the Usage section.
 Open your terminal or command prompt.
 
 Navigate to the directory where you have the SVG generator code. Use the cd command to change to the code directory.
@@ -101,7 +103,7 @@ After providing input and running the tests, the program will generate an HTML f
 
 - [Live Demo](https://youtu.be/3goHCtDbgMQ)
 - [GitHub Repository](https://github.com/2dogsandaguy/the-amazing-log-generator)
-
+- [Live Test Demo](https://youtu.be/SCIRx5NNBRQ)
 
 ## Questions
 If you have any questions about the project, you can reach me via email at [neverclear@ymail.com]
